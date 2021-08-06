@@ -1,11 +1,9 @@
-function printMessages(action)
-{
-    if (action)
-    {
+function printMessages(action) {
+    if (action) {
         console.log("Everything is correct:)");
-    }else
-    {
+    } else {
         console.error("Something gone wrong:(");
     }
 }
-module.exports=printMessages;
+
+module.exports = printMessages;
