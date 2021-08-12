@@ -2,7 +2,7 @@
   "name": "gl_nodejs",
   "version": "1.0.0",
   "description": "",
-  "main": "tutorial-2/main.js",
+  "main": "tutorial-3/static/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node tutorial-1/main.js"
@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/valik-kinakh/GL_NodeJs/issues"
   },
-  "homepage": "https://github.com/valik-kinakh/GL_NodeJs#readme"
+  "homepage": "https://github.com/valik-kinakh/GL_NodeJs#readme",
+  "devDependencies": {
+    "dotenv": "^10.0.0"
+  }
 }
